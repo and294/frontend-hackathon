@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Link rel="stylesheet" href="cart.css"></Link>
 </head>
 <body>
-    
+    <header>
+        <a id="logo" href="index.html">Tickethack</a>
+        <div id="links">
+            <a href="cart.html" id="cart">Cart</a><a href="booking.html">Bookings</a>
+        </div>
+    </header>
+    <div id="container">
+          <div id="cartContainer">
+        <p id="cartTitle">My cart</p>
+        <div class="item">
+            <p id="trip">Paris > Marseille</p>
+            <p id="time">20:09</p>
+            <p id="price">103 €</p>
+            <button id="delete">X</button>
+        </div>
+        <div id="total">
+            <p id="sum">Total: 103 €</p>
+            <button id="purchase">Purchase</button>
+        </div>
+    </div>  
+    </div>
+
 </body>
 </html>

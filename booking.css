@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  width: 97, 5vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+#logo {
+  color: #4da985;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cart {
+  margin-right: 20px;
+}
+
+#container {
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2f1;
+  
+}
+
+#bookContainer {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#bookTitle {
+    margin-top: 30px;
+}
+
+.item {
+  background-color: #f5eeee;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#enjoy {
+    color: #4DA985;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #4DA985;
+    padding-top: 10px;
+}
+
+#line {
+    background-color: #4DA985;
+    height: 5px;
+    width: 75%;
+
+}
+
+
