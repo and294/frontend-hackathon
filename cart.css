@@ -54,9 +54,13 @@ a {
     margin-top: 30px;
 }
 
+.itemContainer{
+  width: 80%;
+}
+
 .item {
   background-color: #f5eeee;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

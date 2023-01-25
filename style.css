@@ -104,8 +104,10 @@ padding: 10px;
 }
 
 .result{
+    display: flex;
     justify-content: center;
     align-items: center; 
+    overflow: scroll;
 }
 
 img{
@@ -120,4 +122,21 @@ img{
     width: 90%;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+.tripContainer {
+  background-color: #f5eeee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.book{
+    width: 20%;
+    padding: 5px;
 }
