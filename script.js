@@ -19,7 +19,7 @@ document.querySelector("#search").addEventListener("click", () => {
     .then((data) => {
       for (let i in data) {
         for (let j in data[i]) {
-          
+          console.log(data.length)
           let dateToFormat = new Date(data[i][j].date);
           let hour = dateToFormat.getHours();
           let minute = dateToFormat.getMinutes();

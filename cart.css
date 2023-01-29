@@ -58,6 +58,18 @@ a {
   width: 80%;
 }
 
+.empty{
+background-color: #f5eeee;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .item {
   background-color: #f5eeee;
   width: 100%;
